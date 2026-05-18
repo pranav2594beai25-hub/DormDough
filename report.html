@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DormDough — Report</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="app">
+    <div class="screen">
+      <div class="header">
+        <div class="logo">Report</div>
+        <div class="header-right">March 2026</div>
+      </div>
+
+      <div class="report-summary">
+        <div class="report-month">March 2026</div>
+        <div class="report-total">₹3,720 spent</div>
+        <div class="report-saved">💰 Saved ₹2,280 from ₹6,000 budget</div>
+      </div>
+
+      <div class="chart-card" style="margin-top:12px">
+        <div class="chart-title">🎨 Spending by Category</div>
+        <div class="hbar-chart">
+          <div class="hbar-row">
+            <div class="hbar-head">
+              <div class="hbar-label">🍱 Food</div>
+              <div class="hbar-val" style="color:#00c896">₹1,840</div>
+            </div>
+            <div class="hbar-bg">
+              <div class="hbar-fill" style="width:72%;background-color: #00c896;"></div>
+            </div>
+          </div>
+          <div class="hbar-row">
+            <div class="hbar-head">
+              <div class="hbar-label">📚 Academic</div>
+              <div class="hbar-val" style="color:orange">₹880</div>
+            </div>
+            <div class="hbar-bg">
+              <div class="hbar-fill" style="width:44%;background-color: orange;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-head">
+        <div class="section-title">Breakdown</div>
+      </div>
+      <div class="breakdown-card">
+        <div class="bk-row">
+          <div class="bk-dot" style="background-color: #00c896;"></div>
+          <div class="bk-name">🍱 Food</div>
+          <div class="bk-amt">₹1,840</div>
+          <div class="bk-pct">49%</div>
+        </div>
+        <div class="bk-row">
+          <div class="bk-dot" style="background-color: orange;"></div>
+          <div class="bk-name">📚 Academic</div><div class="bk-amt">₹880</div>
+          <div class="bk-pct">24%</div>
+        </div>
+      </div>
+
+      <a href="report.html"><button class="share-btn" >🖨️ Share with Parents</button></a>
+    </div>
+
+    <nav class="bottom-nav">
+      <a href="index.html" class="nav-btn ">
+        <div class="nav-icon">🏠</div>
+        <div class="nav-label">Dashboard</div></a>
+      <a href="history.html" class="nav-btn"
+      ><div class="nav-icon">📋</div>
+      <div class="nav-label">History</div></a>
+      <a href="add.html" class="nav-btn">
+        <div class="nav-icon">➕</div>
+        <div class="nav-label">Add</div></a>
+      <a href="budget.html" class="nav-btn">
+        <div class="nav-icon">🎯</div>
+        <div class="nav-label">Budget</div></a>
+      <a href="report.html" class="nav-btn active">
+        <div class="nav-icon">📊</div>
+        <div class="nav-label">Report</div></a>
+    </nav>
+  </div>
+  <script src="dd.js"></script>
+</body>
+</html>

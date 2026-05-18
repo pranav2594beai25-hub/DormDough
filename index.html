@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DormDough — Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="app">
+    <div class="screen">
+      <div class="header">
+        <div class="logo">DormDough</div>
+        <div class="header-right">
+          <span class="live-dot"></span>
+          <span>May 2026</span>
+        </div>
+      </div>
+
+      <div class="hero">
+        <div class="hero-tag">Total Spent This Month</div>
+        <div class="hero-amount">₹0</div>
+        <div class="hero-sub">₹0 remaining · ₹0 budget</div>
+        <div class="hero-bar-bg">
+          <div class="hero-bar-fill" style="width: 62%;"></div>
+        </div>
+        <div class="hero-pct">0% of budget used</div>
+      </div>
+
+      <div class="budget-pills">
+        <div class="b-pill">
+          <div class="b-pill-dot" style="background-color:green"></div>
+          <span class="b-pill-name">Food</span>
+          <span class="b-pill-val">₹0</span>
+        </div>
+        <div class="b-pill">
+          <div class="b-pill-dot" style="background-color:blue"></div>
+          <span class="b-pill-name">Transport</span>
+          <span class="b-pill-val">₹0</span>
+        </div>
+        <div class="b-pill">
+          <div class="b-pill-dot" style="background-color:orange"></div>
+          <span class="b-pill-name">Academic</span>
+          <span class="b-pill-val">₹0</span>
+        </div>
+        <div class="b-pill">
+          <div class="b-pill-dot" style="background-color:red"></div>
+          <span class="b-pill-name">Misc</span>
+          <span class="b-pill-val">₹0</span>
+        </div>
+      </div>
+
+      <div class="section-head">By Category</div>
+
+      <div class="cat-grid">
+        <div class="cat-card cat-food">
+          <div class="cat-icon-wrap" style="background:rgba(0,200,150,0.12)">🍱</div>
+          <div class="cat-name">Food</div>
+          <div class="cat-amt" style="color:#00c896">₹0</div>
+          <div class="mini-bar">
+            <div class="mini-fill" style="background-color: #00c896;width:72%"></div>
+          </div>
+         </div>
+        <div class="cat-card cat-trans">
+          <div class="cat-icon-wrap" style="background:rgba(79,142,247,0.12)">🚌</div>
+          <div class="cat-name">Transport</div>
+          <div class="cat-amt" style="color:#4F8EF7">₹0</div>
+          <div class="mini-bar">
+            <div class="mini-fill" style="background-color: #4F8EF7;width:41%"></div>
+          </div></div>
+        <div class="cat-card cat-acad">
+          <div class="cat-icon-wrap" style="background:rgba(245,166,35,0.12)">📚</div>
+          <div class="cat-name">Academic</div>
+          <div class="cat-amt" style="color:orange">₹0</div>
+          <div class="mini-bar">
+            <div class="mini-fill" style="background-color: orange;width:55%"></div>
+          </div></div>
+        <div class="cat-card cat-misc">
+          <div class="cat-icon-wrap" style="background:rgba(242,108,79,0.12)">🛒</div>
+          <div class="cat-name">Misc</div>
+          <div class="cat-amt" style="color:coral">₹0</div>
+          <div class="mini-bar">
+            <div class="mini-fill" style="background-color: coral;width:25%"></div>
+          </div></div>
+      </div>
+
+      <div class="chart-card">
+        <div class="chart-title">📊 Daily Spending — This Week</div>
+        <div class="bar-chart">
+          <div class="bar-col">
+            <div class="bar-wrap">
+              <div class="bar-tooltip">₹0</div>
+              <div class="bar" style="height:55%;background-color: #00c896;"></div>
+            </div>
+            <div class="bar-day">Mon</div>
+          </div>
+          <div class="bar-col">
+            <div class="bar-wrap">
+              <div class="bar-tooltip">₹0</div>
+              <div class="bar" style="height:100%;background-color:orange;"></div>
+            </div>
+            <div class="bar-day">Sat</div>
+          </div>
+          <div class="bar-col">
+            <div class="bar-wrap">
+              <div class="bar-tooltip">₹0</div>
+              <div class="bar" style="height:19%;background-color: #4F8EF7;"></div>
+            </div>
+              <div class="bar-day">Sun</div>
+            </div>
+          </div>
+          
+      </div>
+
+      <div class="section-head">
+        <div class="section-title">Recent</div>
+        <a href="history.html" class="section-link">See all →</a>
+      </div>
+      <div class="txn-list">
+        <div class="txn-item">
+          <div class="txn-dot" style="background:rgba(0,200,150,0.12)">🍵</div>
+          <div class="txn-info">
+            <div class="txn-name">Chai + snack</div>
+          <div class="txn-time">Today, 4:30 pm</div>
+        </div>
+        <div class="txn-amt" style="color:#00c896">₹35</div>
+      </div>
+
+        <div class="txn-item">
+          <div class="txn-dot" style="background:rgba(79,142,247,0.12)">🚌</div>
+          <div class="txn-info">
+            <div class="txn-name">Auto rickshaw</div>
+            <div class="txn-time">Today, 9:10 am</div>
+          </div>
+          <div class="txn-amt" style="color:#4F8EF7">₹60</div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="bottom-nav">
+      <a href="index.html" class="nav-btn active">
+        <div class="nav-icon">🏠</div>
+        <div class="nav-label">Dashboard</div></a>
+      <a href="history.html" class="nav-btn"
+      ><div class="nav-icon">📋</div>
+      <div class="nav-label">History</div></a>
+      <a href="add.html" class="nav-btn">
+        <div class="nav-icon">➕</div>
+        <div class="nav-label">Add</div></a>
+      <a href="budget.html" class="nav-btn">
+        <div class="nav-icon">🎯</div>
+        <div class="nav-label">Budget</div></a>
+      <a href="report.html" class="nav-btn">
+        <div class="nav-icon">📊</div>
+        <div class="nav-label">Report</div></a>
+    </nav>
+  </div>
+
+  <script src="dd.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DormDough — Add Expense</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  
+
+  <div id="app">
+    <div class="screen" style="padding-top: 24px;">
+      <div class="header">
+        <div class="logo">Add Expense</div>
+        <a href="index.html" style="font-size:13px;color:white;font-weight:500;">Cancel</a>
+      </div>
+
+      <div class="add-hero">
+        <div class="add-prompt">How much did you spend?</div>
+        <div class="amount-display">
+          <span class="rupee-sign">₹</span>
+          <input class="amount-big" type="numeric" placeholder="0">
+        </div>
+        <div class="add-note">Tap a category below, then fill in details</div>
+      </div>
+
+      <div class="pill-row">
+        <span class="cat-pill" >🍱 Food</span>
+        <span class="cat-pill" >🚌 Transport</span>
+        <span class="cat-pill">📚 Academic</span>
+        <span class="cat-pill">🛒 Misc</span>
+      </div>
+
+    
+      <div class="field">
+        <span class="field-icon">📝</span>
+        <input type="text" placeholder="Money Spent On..." >
+      </div>
+      <div class="field">
+        <span class="field-icon">📅</span>
+        <span class="field-label">Date</span>
+        <input type="date">
+      </div>
+
+      <a href="index.html">
+        <button class="save-btn" style="text-align: center;">Save Expense 💸</button>
+      </a>
+    </div>
+     <nav class="bottom-nav">
+      <a href="index.html" class="nav-btn ">
+        <div class="nav-icon">🏠</div>
+        <div class="nav-label">Dashboard</div></a>
+      <a href="history.html" class="nav-btn"
+      ><div class="nav-icon">📋</div>
+      <div class="nav-label">History</div></a>
+      <a href="add.html" class="nav-btn active">
+        <div class="nav-icon">➕</div>
+        <div class="nav-label">Add</div></a>
+      <a href="budget.html" class="nav-btn">
+        <div class="nav-icon">🎯</div>
+        <div class="nav-label">Budget</div></a>
+      <a href="report.html" class="nav-btn">
+        <div class="nav-icon">📊</div>
+        <div class="nav-label">Report</div></a>
+    </nav>
+  </div>
+  <script src="dd.js"></script>
+</body>
+</html>

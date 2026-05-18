@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DormDough — Budget</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="app">
+    <div class="screen">
+      <div class="header">
+        <div class="logo">Budget</div>
+        <div class="header-right">March 2026</div>
+      </div>
+
+      <div class="budget-hero">
+        <div class="budget-lbl">Monthly Budget</div>
+        <div class="budget-input-wrap">
+          <span class="rupee-big">₹</span>
+          <input class="budget-input" type="number" placeholder="6000" value="6000" inputmode="numeric"/>
+        </div>
+        <button class="budget-save">Set Budget 🎯</button>
+        <div class="budget-info">
+          ✅ You have <strong>₹2,280 left</strong> this month — ₹3,720 spent of ₹6,000 budget
+        </div>
+      </div>
+
+      <div class="section-head gap-top">
+        <div class="section-title">Category Limits</div>
+      </div>
+      <div class="cat-budget-list">
+        <div class="cat-bud-card">
+          <div class="cat-bud-icon" style="background:rgba(0,200,150,0.12)">🍱</div>
+          <div class="cat-bud-info">
+            <div class="cat-bud-name">Food</div>
+            <div class="cat-bud-spent" ></div>
+          </div>
+          <div class="cat-bud-input-wrap">
+            <span class="cat-bud-prefix">₹</span>
+            <input class="cat-bud-input" type="number" value="2000" inputmode="numeric"/>
+          </div>
+        </div>
+        <div class="cat-bud-card">
+          <div class="cat-bud-icon" style="background:rgba(79,142,247,0.12)">🚌</div>
+          <div class="cat-bud-info">
+            <div class="cat-bud-name">Transport</div>
+            <div class="cat-bud-spent" >₹620 spent</div>
+          </div>
+          <div class="cat-bud-input-wrap">
+            <span class="cat-bud-prefix">₹</span>
+            <input class="cat-bud-input" type="number" value="800" inputmode="numeric"/>
+          </div>
+          </div>
+         <div class="cat-bud-card">
+          <div class="cat-bud-icon" style="background:rgba(0,200,150,0.12)">📚</div>
+          <div class="cat-bud-info">
+            <div class="cat-bud-name">Academics</div>
+            <div class="cat-bud-spent" ></div>
+          </div>
+          <div class="cat-bud-input-wrap">
+            <span class="cat-bud-prefix">₹</span>
+            <input class="cat-bud-input" type="number" value="2000" inputmode="numeric"/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="bottom-nav">
+      <a href="index.html" class="nav-btn">
+        <div class="nav-icon">🏠</div>
+        <div class="nav-label">Dashboard</div></a>
+      <a href="history.html" class="nav-btn"
+      ><div class="nav-icon">📋</div>
+      <div class="nav-label">History</div></a>
+      <a href="add.html" class="nav-btn">
+        <div class="nav-icon">➕</div>
+        <div class="nav-label">Add</div></a>
+      <a href="budget.html" class="nav-btn active">
+        <div class="nav-icon">🎯</div>
+        <div class="nav-label">Budget</div></a>
+      <a href="report.html" class="nav-btn">
+        <div class="nav-icon">📊</div>
+        <div class="nav-label">Report</div></a>
+    </nav>
+  </div>
+
+  <script src="dd.js"></script>
+</body>
+</html>
