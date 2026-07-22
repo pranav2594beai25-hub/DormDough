@@ -126,7 +126,7 @@ B.Tech AI & ML Student
 
 Frontend Developer | UI Designer | Problem Solver
 
-GitHub: https://github.com/YOUR_USERNAME
+GitHub: https://github.com/pranav2594beai25-hub
 
 ---
 
